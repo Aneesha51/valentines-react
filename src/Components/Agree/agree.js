@@ -3,7 +3,7 @@ import './agree.css';
 import stitch from '../../Assets/stitch.png';
 import video from '../../Assets/red.mp4';
 import { Link } from 'react-scroll';
-import { Navigate, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const Agree = () => {
   const navigate = useNavigate();

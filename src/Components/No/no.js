@@ -3,7 +3,7 @@ import './no.css';
 import video from '../../Assets/red.mp4';
 import image from '../../Assets/sayWhat.jpg';
 import { Link } from 'react-scroll';
-import { Navigate, useNavigate } from 'react-router-dom';
+import {  useNavigate } from 'react-router-dom';
 
 const No = () => {
     const navigate = useNavigate();
