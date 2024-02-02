@@ -16,7 +16,7 @@ const No = () => {
             
         <div className="introContent">
         <img src={image} alt="stitch" className="bg"/>
-            <h1 className="greeting">What you say Sani???</h1>
+            <h2 className="greeting">What you say Sani???</h2>
            <h3 className='question'> That shit dont work here, <span className='Valentine'>Please click the correct button down below😘</span></h3>
            <span><Link><button className="btn" onClick={() => navigate("/agree")}>Yes</button> </Link></span>
 
